@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tech Goals</title>
+    <title>Profile card</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>My Tech Goals for the Next 2 Years</h1>
+            <h1>Responsive Profile Card</h1>
         </header>
         <section class="profile">
            <div class="img-container">
-            <img src="/semi.jpg" alt="Profile Picture" data-testid="slackProfilePicture">
+            <img src="/semi.jpg" alt="Profile Picture" data-testid="ProfilePicture">
            </div> 
-            <p data-testid="slackDisplayName">Semilore Bajomo</p>
-            <p data-testid="slackEmail">bajomosemilore@gmail.com</p>
+            <p data-testid="fullName">Semilore Bajomo</p>
+            <p data-testid="EmailAddress">bajomosemilore@gmail.com</p>
+            <p data-testid="jobTitle">Software engineer</p>
+            <p data-testid="currentLocation">Lagos,Nigeria</p>
         </section>
         <section class="current-info">
             <p >Current Time (UTC): <span id="currentTimeUTC" data-testid="currentTimeUTC"></span></p>
             <p>Current Day: <span id="currentDay" data-testid="currentDay"></span></p>
         </section>
-        <section class="goals">
-            <h2>My Goals</h2>
-            <ul>
-                <li>Goal 1:<span>Become a senior Level Developer with my current stack(React/NextJs,Typescript,Tailwind Css)</span></li>
-                <li>Goal 2:<span>Become competent at another technology stack to improve my marketability</span> </li>
-                <li>Goal 3:<span>Achieve Financial independence</span></li>
-                <li>Goal 4:<span>Work for a global tech company</span></li>
-
-            </ul>
+        <section class="bio">
+            <h3>Short bio </h3>
+            <p data-testid="shortBio">
+                My name is Bajomo Oluwasemilore , a 
+                frontend developer. My current tech stack includes HTML, CSS, JavaScript, React, typescript,Next.js and tailwind css 
+                I am ooking to sharpen my skills and become a better software engineer 
+            </p>
         </section>
         <footer>
-            <span>Useful Links:</span>
+            <span>Social Links:</span>
             <ul>
-                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
-                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
-                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                <li><a href="https://twitter.com/BajomoSemilore" data-testid="socialLinks">twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/oluwasemilore-bajomo-3a7087247/" data-testid="socialLinks">Linkedin</a></li>
+                <li><a href="https://github.com/Sbtech24" data-testid="socialLinks">Github</a></li>
             </ul>
         </footer>
     </div>
